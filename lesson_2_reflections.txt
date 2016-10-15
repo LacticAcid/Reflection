@@ -1,0 +1,31 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+ Maybe the staging area and working directory is the part of repostory.
+ And I think the staging area is store something you operate but not store into your file completely like a buffer area.
+ And the working directory is save something you can see in your system explorer.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+ Run git diff --staged to compare staging area to repostory,make sure that is what you have change to save,then run git commit to add the commit message to submit the commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+ Maybe in the situation of that want to modify the old version because there are two scheme to solve the problem or the bug.
+ The branch help us to protect the recent most version from changing the old version without relation of it.
+
+How do the diagrams help you visualize the branch structure?
+
+ We can use the graph of the branch,to see the branch relationship clearly.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+ Merge two branch will merge the changing of two branch which from their common parent.
+ The git log --graph show it there are two path on the old version file,and it is sort of time to show.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+ Maybe the merging automatically is very convenient for us,but there if exist a changing of same area will make a conflict,also we can fix it easily because Git has sign the conflict in the file.
